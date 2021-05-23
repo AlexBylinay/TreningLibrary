@@ -1,10 +1,23 @@
 package by.bylinay.treningLibrary;
 
+/**
+ * Here, create objects of class and check the 
+ * operation of the program in the main() method
+ * 
+ * @author AlexBylinay
+ *
+ */
+
 public class Launcher {
 	public static void main(String[] arr) {
+		
+		
 
 		Library alabama = new Library();
-		// Library michigan = new Library();
+		
+		/**
+		 * create objects of class Book
+		 */
 		Book var = new Book("Vorobey", 23451, 1986);
 		Book blod = new Book("PevicaMaksim", 56775, 1927);
 		Book Victory = new Book("Manovar", 23678, 1789);
@@ -19,6 +32,9 @@ public class Launcher {
 		alabama.addBooks(sonOfOdin);
 		alabama.addBooks(valkiriya);
 
+		/**
+		 * checking the search
+		 */
 		System.out.println("on author");
 		alabama.searchByAuthor("Director").forEach(b -> System.out.println(b.fomatToPrint()));
 		System.out.println("on year");
