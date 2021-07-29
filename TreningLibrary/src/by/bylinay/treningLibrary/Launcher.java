@@ -41,6 +41,7 @@ public class Launcher {
 		alabama.searchByYear(1986).forEach(b -> System.out.println(b.fomatToPrint()));
 		System.out.println("on IBN");
 		alabama.searchByIbn(14576).forEach(b -> System.out.println(b.fomatToPrint()));
+		//okklkjljojojojljljljljljlj9o
 	}
 
 }
